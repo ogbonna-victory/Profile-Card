@@ -96,9 +96,12 @@
     } 
     .email, .num{
         width: 130px;
-        height: 50px;
+        height: 30px;
     }
     .myemail, .mynum{
         font-size: small;
     }
+ }
+ .email{
+    margin-left: 2px;
  }
