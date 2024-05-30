@@ -8,7 +8,7 @@
     background-color: #F5F5F5;
 }
 .profile-body{
-    width: 30%;
+    width: 50%;
     margin: auto;
     margin-top: 60px;
 }
@@ -92,11 +92,11 @@
 }
 @media ( max-width:600px){
     .profile-body{
-     width: 80%;
-    } 
+        width: 80%;
+       } 
     .email, .num{
         width: 130px;
-        height: 30px;
+        height: 60px;
     }
     .myemail, .mynum{
         font-size: small;
