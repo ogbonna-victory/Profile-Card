@@ -90,3 +90,15 @@
     width: 80%;
    } 
 }
+@media ( max-width:600px){
+    .profile-body{
+     width: 80%;
+    } 
+    .email, .num{
+        width: 130px;
+        height: 130px;
+    }
+    .myemail, .mynum{
+        font-size: small;
+    }
+ }
