@@ -100,6 +100,7 @@
     }
     .myemail, .mynum{
         font-size: small;
+        margin: 5px;
     }
  }
  .email{
