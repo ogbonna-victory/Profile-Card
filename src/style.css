@@ -4,82 +4,89 @@
     box-sizing: border-box;
 }
 #body{
-    background-color: rgb(145, 12, 145);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Raleway, sans-serif;
+    background-color: #F5F5F5;
 }
-.profilecard{
-    background-color: rgb(71, 6, 71);
-    width: 40%;
+.profile-body{
+    width: 30%;
     margin: auto;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 10px;
+    margin-top: 60px;
 }
-#img{
-    width: 120px;
-    height: 120px;
+.image{
     display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: solid;
-    border-color: skyblue;   
-    margin-top: 5px;
+    margin: auto;
+    width: 140px !important;
+    height: 140px !important;
+    position: absolute;
+    top: 9%;
+    left: 9%;
+}
+.image-body{
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
 }
 .name{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-    margin-top: 5px;
+    color: #1a1a1a;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
 }
-.job{
-    color: purple;
-    font-weight: bold;
-    text-align: center; 
-    width: 300px;
-    margin: inherit;
-    margin-top: 5px;
-    border-style: ridge;
-    background-color: skyblue;
-    border: none;
-    padding-top: 5px;
-    padding-top: 5px;
 
+.job{
+    font-size: 18px;
 }
-.jobdesc{
-    color: white;
-    text-align: center;
-    width: 400px;
-    margin-top: 15px;
-    margin: inherit;
+.facebook, .instagram, .twitter, .linkedin{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
 }
-.num{
-    color: purple;
-    font-weight: bold;
-    border-style: solid;
-    background-color: skyblue;
-    border: none;
-    width: 200px;
-    text-align: center;
-    margin: inherit;
-    margin-top: 5px;
-    padding: 5px 5px 5px 5px;
+.socials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-#lkicon{
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-left: 200px;
+.instagram{
+    margin-right: 5px !important;
 }
-#fbicon{
-    display: inline-block;
-    height: 30px;
-    width: 30px;
+.fa-brands.fa-facebook-f{
+    font-size: 1em;
+    position: absolute;
+    top: 12px;
+    color: #1877f2;
 }
-#twitter{
-    display: inline-block;
-    height: 30px;
-    width: 30px;
+.fa-brands.fa-x-twitter, .fa-brands.fa-instagram, .fa-brands.fa-linkedin-in{
+    font-size: 1em;
+    position: absolute;
+    top: 12px;
+    left: 13px;
+}
+.fa-brands.fa-x-twitter{
+    color: #1DA1F2;
+}
+.fa-brands.fa-instagram{
+    color: #E1306C;
+}
+.fa-brands.fa-linkedin-in{
+    color: #0A66C2;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px !important;
+}
+.email, .num{
+    width: 170px;
+    height: 80px;
+    margin: 10px;
+}
+@media ( max-width:475px){
+   .profile-body{
+    width: 80%;
+   } 
 }
