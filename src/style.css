@@ -91,12 +91,16 @@
     .myemail, .mynum{
         font-size: small;
     }
-    .profile-container{
-        width: 80%;
-    }
  }
- @media (max-width: 654px) {
+ @media (max-width: 768px) {
     .profile-body{
-        width: 80%;
+        width: 60%;
     }
- }
+}
+@media (min-width: 769px){
+    .profile-body{
+        width: 40%;
+    }
+}
+ 
+ 
