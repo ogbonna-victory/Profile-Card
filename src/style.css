@@ -12,6 +12,7 @@
     margin: auto;
     margin-top: 60px;
 }
+
 .image{
     display: block;
     margin: auto;
@@ -73,42 +74,25 @@
 .fa-brands.fa-linkedin-in{
     color: #0A66C2;
 }
-.contact-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 25px !important;
-}
-.email, .num{
-    width: 170px;
+.num{
+    width: 190px;
     height: 80px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-@media ( max-width:475px){
-   .profile-body{
-    width: 80%;
-   } 
+.contact-box{
+    margin: auto;
 }
-@media ( max-width:600px){
+@media (max-width: 475px) {
     .profile-body{
         width: 80%;
        } 
-    .email, .num{
-        width: 130px;
-        height: 60px;
-    }
     .myemail, .mynum{
         font-size: small;
     }
- .email{
-    margin-left: 2px;
  }
- .email, .num{
-    margin: 5px;
- }
- }
- @media ( max-width:940px){
+ @media (max-width: 654px) {
     .profile-body{
         width: 50%;
     }
