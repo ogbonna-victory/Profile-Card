@@ -8,7 +8,7 @@
     background-color: #F5F5F5;
 }
 .profile-body{
-    width: 50%;
+    width: 40%;
     margin: auto;
     margin-top: 60px;
 }
@@ -107,4 +107,9 @@
  .email, .num{
     margin: 5px;
  }
+ }
+ @media ( max-width:940px){
+    .profile-body{
+        width: 50%;
+    }
  }
