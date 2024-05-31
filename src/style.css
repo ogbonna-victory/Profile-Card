@@ -86,7 +86,7 @@
 }
 @media (max-width: 475px) {
     .profile-body{
-        width: 80%;
+        width: 90%;
        } 
     .myemail, .mynum{
         font-size: small;
