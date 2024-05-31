@@ -91,6 +91,9 @@
     .myemail, .mynum{
         font-size: small;
     }
+    .profile-container{
+        width: 80%;
+    }
  }
  @media (max-width: 654px) {
     .profile-body{
